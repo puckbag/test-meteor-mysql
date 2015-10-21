@@ -1,0 +1,36 @@
+<head>
+	<title>test-meteor-mysql</title>
+</head>
+
+<body>
+	<h1>Welcome to Meteor!</h1>
+
+	{{> hello}}
+</body>
+
+<template name="hello">
+	<h2>Who am I?</h2>
+	<form>
+		<select>
+			<option></option>
+			{{#each users}}
+				<option value="{{ id }}">{{ name }}</option>
+			{{/each}}
+		</select>
+	</form>
+
+	<h2>My Notes</h2>
+	<ul>
+		{{#each my_notes}}
+			<li>{{ note }}</li>
+		{{/each}}
+	</ul>
+
+	<h2>Users</h2>
+	<ul>
+		{{#each users}}
+			<li>{{ name }}</li>
+		{{/each}}
+	</ul>
+
+</template>

@@ -1,0 +1,11 @@
+{
+        "mysql": {
+                "host": "localhost",
+                "user": "root",
+                "password": "root",
+                "database": "test",
+                "serverId": 1001,
+                "minInterval": 200,
+                "timezone": "utc"
+        }
+}
