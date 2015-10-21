@@ -6,6 +6,20 @@ For testing Numtel's meteor:mysql package.
 [https://github.com/numtel/meteor-mysql](https://github.com/numtel/meteor-mysql)
 
 
+Clone and Run
+-------------
+
+Be sure to [setup your database](#database-setup) before running meteor.
+
+```
+$ git clone git@github.com:puckbag/test-meteor-mysql.git
+$ cd test-meteor-mysql.git
+$ cp settings.json.sample settings.json
+$ cat settings.json
+$ ./run-meteor.sh
+```
+
+
 Database Setup
 --------------
 
